@@ -1,18 +1,1 @@
-# Rapport sur le Dataset "Default of Credit Card Clients"
 
-## Description du dataset
-Le dataset "Default of Credit Card Clients" provient du UCI Machine Learning Repository. Il contient des données sur 30 000 clients de cartes de crédit à Taiwan, avec pour objectif de prédire le défaut de paiement du mois suivant.
-
-## Structure des données
-- Nombre d'observations : 30 000
-- Nombre de variables explicatives : 23 (démographiques, historiques de paiement, montants dus et payés)
-- Variable cible : défaut de paiement le mois suivant (0 = non défaut, 1 = défaut)
-
-## Variables principales
-- LIMIT_BAL : limite de crédit (en NT dollars)
-- SEX : sexe (1 = homme, 2 = femme)
-- EDUCATION : niveau d’éducation (1 = graduate, 2 = university, 3 = high school, 4 = others)
-- MARRIAGE : état civil (1 = marié, 2 = célibataire, 3 = autres)
-- AGE : âge en années
-- PAY_0 à PAY_6 : historique du statut de paiement pour les 6 derniers mois (valeurs indiquant les retards)
-- BILL_AMT1 à BILL_AM
